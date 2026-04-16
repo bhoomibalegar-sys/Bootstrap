@@ -1,0 +1,17 @@
+<div id="container"></div>
+
+<script src="https://code.highcharts.com/highcharts.js"></script>
+<script>
+Highcharts.chart('container', {
+    title: {
+        text: 'Monthly Data'
+    },
+    xAxis: {
+        categories: ['Jan', 'Feb', 'Mar']
+    },
+    series: [{
+        name: 'Sales',
+        data: [10, 20, 30]
+    }]
+});
+</script>
